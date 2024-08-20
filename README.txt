@@ -32,4 +32,4 @@
 
 - Delete an article:
 
-- Click on the "Delete" button next to the article you want to remove.
+- Click on the "Delete" button next to the article you want to remove.`
