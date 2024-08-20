@@ -1,37 +1,35 @@
-- نظام إدارة مدونة بسيطة
+- Simple Blog Management System
 
-- هذا المشروع يستخدم لإدارة المدونات باستخدام PHP وSQL. يتيح النظام للمستخدمين إنشاء وقراءة وتحديث وحذف المقالات. يعتمد على مبادئ البرمجة الكائنية في PHP لتنظيم الكود .
+- This project is used to manage blogs using PHP and SQL. The system allows users to create, read, update and delete articles. It is based on the principles of object-oriented programming in PHP to organize the code.
 
-- إعداد المشروع :
+- Project setup:
 
--  اعداد قاعدة البيانات : قم بإنشاء قاعدة بيانات جديدة في MySQL بالاسم ("blog_db").
+- Database setup: Create a new database in MySQL named ("blog_db").
 
-- أكتب في ال terminal الخاص بمحرر الاكواد المستخدم الامر التالي لانشاء الجدول posts في قاعدة البيانات  : "php setup_database.php".
+- Type the following command in the terminal of the code editor used to create the posts table in the database: "php setup_database.php".
 
-- إعداد الخادم : قم بنقل ملفات المشروع إلى مجلد htdocs (إذا كنت تستخدم XAMPP).
+- Server setup: Move the project files to the htdocs folder (if you are using XAMPP).
 
-- افتح متصفح الويب واذهب إلى العنوان التالي : "http://localhost/directory-name"
+- Open a web browser and go to the following address: "http://localhost/directory-name"
 
-- أو عن طريق كتابة الامر التالي في ال terminal الموجود في محرر الاكواد المستخدم : "php -S localhost:8888".
+- Or by typing the following command in the terminal of the code editor used: "php -S localhost:8888".
 
-- افتح متصفح الويب واذهب إلى العنوان التالي :"http://localhost:8888".
+- Open a web browser and go to the following address: "http://localhost:8888".
 
-- كيفية الاستخدام
+- How to use
 
-- إنشاء مقال:
+- Create an article:
 
-- انتقل إلى صفحة  ("create_post.php")وأدخل العنوان والمحتوى والمؤلف ثم احفظ المقال.
+- Go to the ("create_post.php") page, enter the title, content and author, then save the article.
 
-- عرض المقالات:
+- View articles:
 
-- انتقل إلى الصفحة الرئيسية لعرض قائمة المقالات.
+- Go to the home page to view the list of articles.
 
-- تحديث مقال:
+- Update an article:
 
-- انتقل إلى صفحة("edit_post.php") انقر على المقال الذي ترغب في تعديله ثم اضغط على زر "Update Post".
+- Go to the ("edit_post.php") page, click on the article you want to edit, then click on the "Update Post" button.
 
-- حذف مقال:
+- Delete an article:
 
-- انقر على زر "Delete" بجانب المقال الذي ترغب في إزالته.
-
-
+- Click on the "Delete" button next to the article you want to remove.
